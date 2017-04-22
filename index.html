@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>Flavorous™</title>
+        <style>
+            .contact-header {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            }
+        </style>
+        <link rel="stylesheet" href="framework7.ios.css">
+        <link rel="stylesheet" href="framework7.ios.colors.css">
+        <link rel="icon" href="Cydia_logo.png">
+        <link rel="apple-touch-icon" href="img/Cydia_logo.png">
+    </head>
+    <body class="theme-blue" onload="writeDeviceInfo()">
+     
+        <div id="flpx" style="display:none;" height="0" width="0"></div>
+        <div class="statusbar-overlay"></div>
+        <div class="panel-overlay"></div>
+        <div class="views tabs toolbar-through">
+            <div class="view view-main" data-page="index-1">
+                <div class="navbar">
+                    <div class="navbar-inner navbar-on-center">
+                        <div class="left">
+                            <a href="#" class="alert-text-title">About</a>
+                        </div>
+                        <div class="center sliding" style="left: 5px; transform: translate3d(0px, 0px, 0px);">
+                            Home
+                        </div>
+                        <div class="right">
+                            <a href="#" onclick="myFunction()" class="">Reload</a>
+                          <script>
+                                function myFunction() {
+                                location.reload();
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages navbar-through">
+                    <div data-page="index-1" class="page page-on-center">
+                        <div class="page-content">
+                            <div>
+                                <div class="row">
+                                    <div class="col-auto tablet-auto" style="text-align: center;"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto tablet-auto" style="margin-top: 5px"></div>
+                                </div>
+                            </div>
+                            <div class="content-block" style="
+                                margin-top: 0px;
+                                margin-bottom: 0px;
+                                height: 76px;
+                                ">
+                                <img src="Cydia_logo.png" style="width: 60px;height: 60px;border-radius:21%;float:left;margin-right:10px;margin-left: 10px;padding-top: 5px;" class="">
+                                <center style="
+                                    height: 80px;
+                                    ">
+                                    <font size="4">
+                                        <div class="story-info" style="
+                                            padding-top: 15px; color:#000;
+                                            ">Welcome to Flavorous™</div>
+                                    </font>
+                                    <div class="story-info" style="color:#000;">by <font size="2"><a href="twitter.com/ayecoding" class="external" style="color: #586C90; font-weight: bold;">Ashur P.</a></font></div>
+                                </center>
+                            </div>
+                            <div class="contact-header">
+                                <div class="list-block" style="
+                                    width: 50%;
+                                    margin-top: 0px;
+                                    margin-bottom: 9px;
+                                    ">
+                                    <ul style="background-color: white;">
+                                        <li>
+                                            <a href="http://twitter.com/flavorousapp" class="item-link  external item-content">
+                                                <div class="item-media">
+                                                    <img class="icon" src="https://cydia.saurik.com/icon/twitter.png" style="
+                                                        width: 29px;
+                                                        ">
+                                                </div>
+                                                <div class="item-inner" style="
+                                                    margin-left: 5px;
+                                                    ">
+                                                    <div class="item-title">Flavorous App</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-block" style="
+                                    width: 1px;
+                                    margin-top: 0px;
+                                    margin-bottom: 9px;
+                                    ">
+                                    <ul style="background: #C8C7CC;">
+                                        <li>
+                                            <a href="#" class="item-link item-content">
+                                                <div class="item-media"></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-block" style="
+                                    width: 50%;
+                                    margin-top: 0px;
+                                    margin-bottom: 9px;
+                                    ">
+                                    <ul style="background-color: white;">
+                                        <li>
+                                            <a href="http://twitter.com/ayecoding" class="item-link external item-content">
+                                                <div class="item-media">
+                                                    <img class="icon" src="https://cydia.saurik.com/icon/twitter.png" style="
+                                                        width: 29px;
+                                                        ">
+                                                </div>
+                                                <div class="item-inner" style="
+                                                    margin-left: 5px;
+                                                    ">
+                                                    <div class="item-title">Ashur P.</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="contact-header">
+                                <div class="list-block" style="
+                                    width: 50%;
+                                    margin-top: 0px;
+                                    margin-bottom: 5px;
+                                    ">
+                                    <ul>
+                                        <li>
+                                            <a href="featured.html" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <img class="icon" src="http://cydia.saurik.com/ui/ios~iphone/1.1/home/featured.png" style="
+                                                        width: 29px;
+                                                        border-radius:21%;
+                                                        ">
+                                                </div>
+                                                <div class="item-inner" style="
+                                                    margin-left: 5px;
+                                                    ">
+                                                    <div class="item-title">Featured</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-block" style="
+                                    width: 1px;
+                                    margin-top: 0px;
+                                    margin-bottom: 5px;
+                                    ">
+                                    <ul style="background: #C8C7CC;">
+                                        <li>
+                                            <a href="#" class="item-link item-content">
+                                                <div class="item-media"></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-block" style="
+                                    width: 50%;
+                                    margin-top: 0px;
+                                    margin-bottom: 5px;
+                                    ">
+                                    <ul>
+                                        <li>
+                                            <a href="themes.html" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <img class="icon" src="http://cydia.saurik.com/ui/ios~iphone/1.1/home/themes.png" style="
+                                                        border-radius:21%;
+                                                        width: 29px;
+                                                        ">
+                                                </div>
+                                                <div class="item-inner" style="
+                                                    margin-left: 5px;
+                                                    ">
+                                                    <div class="item-title">Themes</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-block" style="
+                                margin-top: 4px;
+                                margin-bottom: 5px;
+                                ">
+                                <ul style="background:#E5EEF5;">
+                                    <li>
+                                        <a href="http://tutuapp.com" class="external item-link item-content">
+                                            <div class="item-media"><img class="icon" src="img/tutu.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">TuTuHelper</div>
+                                                <font size="1">
+                                                    <div class="item-after" style="color:#3D4E62;">     &zwj;   App Provider</div>
+                                                </font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com" class="external item-link item-content">
+                                            <div class="item-media"><img class="icon" src="icon.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">My Youtube</div>
+                                                <font size="1">
+                                                    <div class="item-after" style="color:#3D4E62;">Watch my videos</div>
+                                                </font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="list-block" style="
+                                margin-top: 9px;
+                                margin-bottom: 5px;
+                                ">
+                                <ul>
+                                    <li>
+                                        <a href="http://yalu.qwertyuiop.com" class="extermal item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Jailbreak Help</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://alternativeto.net/software/cydia/" class="external item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Find More Cydia Alternatives</div>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a href="http://www.bestcydiasources.com/" class="external item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">More Package Sources</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+							<center>
+							<script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=333443&format=300x50&ga=g"></script>
+<noscript><a href="https://yllix.com/publishers/333443" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub_2hpya3.png" border="0" /></a></noscript>
+</center>
+                            <div class="list-block" style="
+                                margin-top: 9px;
+                                margin-bottom: 5px;
+                                ">
+                                <ul style="background:#E5EEF5;">
+                                    <li>
+                                        <a href="sm.html" class="item-link item-content">
+                                            <div class="item-media"><img class="icon" src="appicons/twitter.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">Tweaked Social Media</div>
+                                                <font size="1">
+                                                    <div class="item-after" style="color:#3D4E62;"> Twitter++.</div>
+                                                </font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="m.html" class="item-link item-content">
+                                            <div class="item-media"><img class="icon" src="appicons/moviebox.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">Free Movies</div>
+                                                <font size="1">
+                                                    <div class="item-after" style="color:#3D4E62;">Movie Box</div>
+                                                </font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="fm.html" class="item-link item-content">
+                                            <div class="item-media"><img class="icon" src="appicons/xcleaner.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">File Management</div>
+                                                <font size="1">
+                                                    <div class="item-after" style="color:#3D4E62;">XCleaner</div>
+                                                </font>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+					
+                            <div class="content-block-title" style="
+                                margin-top: 15px;
+                                margin-bottom: 9px;
+                                ">user guides</div>
+                            <div class="list-block" style="
+                                margin-top: 9px;
+                                margin-bottom: 5px;
+                                ">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.reddit.com/r/jailbreak/wiki/faq" class="external item-link item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Frequently Asked Questions</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+								
+                            <div class="content-block-title" style="
+                                margin-top: 15px;
+                                margin-bottom: 9px;
+                                ">community</div>
+                            <div class="list-block" style="
+                                margin-top: 9px;
+                                margin-bottom: 5px;
+                                ">
+                                <ul>
+                                    <li>
+                                        <a href="http://www.guidemyjailbreak.com/" class="external item-link item-content">
+                                            <div class="item-media"><img class="icon" src="http://cydia.saurik.com/ui/ios~iphone/1.1/package/web.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">JailbreakQA (Support)</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.reddit.com/r/jailbreak" class="external item-link item-content">
+                                            <div class="item-media"><img class="icon" src="http://cydia.saurik.com/icon/reddit.png" style="
+                                                border-radius:21%;
+                                                width: 29px;
+                                                "></div>
+                                            <div class="item-inner" style="
+                                                margin-left: 5px;
+                                                ">
+                                                <div class="item-title">/r/jailbreak on Reddit</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            </div>
+                            <div style="font-size:70%;text-align:center;color:gray;margin:10px;">
+                               Flavorous™ v1.0 (en-us)
+                            </div>
+							<center>
+							<script type="text/javascript" src="//ylx-1.com/bnr.php?section=General&pub=333443&format=300x50&ga=g"></script>
+<noscript><a href="https://yllix.com/publishers/333443" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub_2hpya3.png" border="0" /></a></noscript>
+</center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            </div>
+            
+            
+        </div>
+        <script type="text/javascript" src="framework7.js"></script>
+        <script type="text/javascript" src="my-app.js"></script>
+
+        
+		<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+
+<script>
+            $$('.prompt-title-ok').on('click', function () {
+              myApp.prompt('', 'Enter Cydia/APT URL', function (value) {
+                  myApp.alert('A server with the specified hostname could not be found.', 'Verification Error');
+              });
+            });
+            $$('.alert-text-title').on('click', function () {
+              myApp.alert('Copyright © 2008-2017<br>SaurikIT , LLC<br><br>Jay Freeman (saurik)<br>saurik@saurik.com<br>http://www.saurik.com/<br><br>N0AHD3V<br>N0AHD3V.ml<br><br>Tutu<br>tutuhelper.com', 'About Nydia');
+            });
+        </script>
+    </body>
+</html>
